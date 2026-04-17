@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>John Michael Sarinas — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<nav role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-logo">JM.</a>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<!-- ── HOME ── -->
+<section id="home" aria-label="Introduction">
+    <div class="home-bg-grid" aria-hidden="true"></div>
+    <div class="home-bg-orb" aria-hidden="true"></div>
+
+    <div class="home-container">
+        <div class="home-text">
+            <p class="eyebrow">Welcome to my portfolio</p>
+            <h1>Hi, I'm <em>John Michael Sarinas</em></h1>
+            <p class="bio">
+                I'm currently pursuing a degree in Information Technology and aspiring game developer with a strong interest in creating games and learning emerging technologies.
+                I also want to explore how artificial intelligence works and how it can be used to help humanity in the future.
+            </p>
+            <div class="home-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+
+        <div class="home-visual">
+            <div class="profile-frame">
+                <div class="profile-img" role="img" aria-label="Profile photo of John Michael Sarinas">
+                    <!-- Replace the SVG below with an <img src="images/profile.jpg" alt="Alex Rivera" /> -->
+                    <img src="Profesionalpicture.png" alt="John Michael Sarinas" width="300" height="350" />
+                </div>
+                <span class="profile-badge">Open to Work</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">Scroll</div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about" aria-label="About me">
+    <div class="section-inner">
+        <div class="section-header fade-in">
+            <p class="section-tag">Get to know me</p>
+            <h2 class="section-title">About <em class="italic">Me</em></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-sidebar fade-in fade-in-delay-1">
+                <div class="about-card">
+                    <h3>Education</h3>
+                    <ul class="edu-list">
+                        <li class="edu-item">
+                            <span class="edu-dot"></span>
+                            <div>
+                                <strong>B.S. Information Technology</strong>
+                                <span>Phinma Araullo University · 2025–2029</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="about-card">
+                    <h3>Certificate</h3>
+                    <div class="stat-colum">
+                        <li class="edu-item">
+                            <span class="edu-dot"></span>
+                            <div>
+                                <strong>Basics of Python</strong>
+                                <span>UniAthena Global Education · 2025</span>
+                            </div>
+                        </li>
+                        <li class="edu-item">
+                            <span class="edu-dot"></span>
+                            <div>
+                                <strong>Basics of Machine Learning Algorithms</strong>
+                                <span>UniAthena Global Education · 2025</span>
+                            </div>
+                        </li>
+                        <li class="edu-item">
+                            <span class="edu-dot"></span>
+                            <div>
+                                <strong>Digital Safety 101: Cybersecurity Tips & Tricks for Students and Future Professionals</strong>
+                                <span>West Visayas State University - CICT · 2025</span>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content fade-in fade-in-delay-2">
+                <p>
+                    I'm John Michael, a student and aspiring game developer with a passion for creating interactive and meaningful digital experiences.
+                    I enjoy building games that are not only entertaining but also engaging and creative. My interest in technology continues to grow as I explore different programming concepts, game mechanics, and user-focused design.
+                    I am constantly learning and improving my skills to turn ideas into real projects.
+                </p>
+                <p>
+                    I am also deeply interested in artificial intelligence and how it works. My goal is to understand AI and use it to create smarter games and helpful tools.
+                    In the future, I want to develop AI systems that can assist people, animals, and other forms of life, contributing to solutions that make a positive impact.
+                    Through continuous learning and hands-on projects, I aim to become a game developer who combines creativity, technology, and innovation.
+                </p>
+
+
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-chip">HTML &amp; CSS</div>
+                        <div class="skill-chip">JavaScript</div>
+                        <div class="skill-chip">Python</div>
+                        <div class="skill-chip">Java</div>
+                        <div class="skill-chip">Git &amp; GitHub</div>
+                        <div class="skill-chip">Roblox engine</div>
+                        <div class="skill-chip">Excel</div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 style="font-family:'DM Serif Display',serif; font-size:1.4rem; margin-top:1.75rem; margin-bottom:0.75rem;">Interests</h3>
+                    <div class="interests-row">
+                        <span class="interest-tag">Game Development</span>
+                        <span class="interest-tag">Machine Learning</span>
+                        <span class="interest-tag">Data Engineering</span>
+                        <span class="interest-tag">Hiking</span>
+                        <span class="interest-tag">Artificial Intelligence</span>
+                        <span class="interest-tag">Spaceship</span>
+                        <span class="interest-tag">Aeronautical Engineering</span>
+                        <span class="interest-tag">Cycling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects" aria-label="Projects and portfolio">
+    <div class="section-inner">
+        <div class="section-header fade-in">
+            <p class="section-tag">My work</p>
+            <h2 class="section-title">Featured <em class="italic">Projects</em></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card fade-in fade-in-delay-1">
+                <div class="project-thumb navy" aria-hidden="true">
+                    <span class="project-number">01</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                    </div>
+                    <h3>Word Scramble Game</h3>
+                    <p>A simple game that can help people like kids, adult, and senior to boost their critical thinking to solve a complex game.</p>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card fade-in fade-in-delay-2">
+                <div class="project-thumb mid" aria-hidden="true">
+                    <span class="project-number">02</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="project-tag">Java</span>
+                        <span class="project-tag">GUI</span>
+                    </div>
+                    <h3>Calculator</h3>
+                    <p>A simple calculator with Graphical User Interface(GUI) that can perform aritmethic operations.</p>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card fade-in fade-in-delay-3">
+                <div class="project-thumb light" aria-hidden="true">
+                    <span class="project-number">03</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="project-tag">Java</span>
+                        <span class="project-tag">Gui</span>
+                    </div>
+                    <h3>Jcash</h3>
+                    <p>Jcash is a simple banking app where user can create his own Jcash that can perform DEPOSIT, WITHDRAW
+                    and TRANSFER to another user.</p>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" aria-label="Contact me">
+    <div class="section-inner">
+        <div class="section-header fade-in">
+            <p class="section-tag">Let's connect</p>
+            <h2 class="section-title">Get in <em class="italic">Touch</em></h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info fade-in fade-in-delay-1">
+                <p>I'm always open to new opportunities, collaborations, or just a friendly chat about tech . Feel free to reach out through any of the channels below.</p>
+
+                <div class="contact-methods">
+                    <a href="mailto:johnmichael223@gmail.com" class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="4" width="16" height="12" rx="2" stroke="#c9a84c" stroke-width="1.5"/>
+                                <path d="M2 7l8 5 8-5" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="contact-method-text">
+                            <strong>Email</strong>
+                            <span>johnmichaelsarinas223@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 1C5.03 1 1 5.03 1 10c0 3.99 2.58 7.38 6.16 8.58.45.08.62-.19.62-.43v-1.52C5.31 17.22 4.8 15.72 4.8 15.72c-.41-1.03-.99-1.3-.99-1.3-.81-.55.06-.54.06-.54.89.06 1.36.92 1.36.92.79 1.36 2.08.97 2.59.74.08-.57.31-.97.56-1.2-1.97-.22-4.04-.99-4.04-4.4 0-.97.35-1.77.92-2.39-.09-.23-.4-1.13.09-2.35 0 0 .75-.24 2.45.91.71-.2 1.47-.3 2.22-.3.75 0 1.51.1 2.22.3 1.7-1.15 2.45-.91 2.45-.91.49 1.22.18 2.12.09 2.35.57.62.92 1.42.92 2.39 0 3.42-2.08 4.17-4.05 4.39.32.27.6.8.6 1.62v2.4c0 .24.16.52.62.43C16.42 17.38 19 13.99 19 10c0-4.97-4.03-9-9-9z" fill="#c9a84c"/>
+                            </svg>
+                        </div>
+                        <div class="contact-method-text">
+                            <strong>GitHub</strong>
+                            <span>github.com/MichaelSarinas</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/mich4el_22" class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="16" height="16" rx="4" stroke="#c9a84c" stroke-width="1.5"/>
+                                <circle cx="10" cy="10" r="3" stroke="#c9a84c" stroke-width="1.5"/>
+                                <circle cx="14.5" cy="5.5" r="1" fill="#c9a84c"/>
+                            </svg>
+                        </div>
+                        <div class="contact-method-text">
+                            <strong>Instagram</strong>
+                            <span>mich4el_22</span>
+                        </div>
+                    </a>
+                </div>
+
+                <h4 style="color:rgba(255,255,255,0.5);font-size:0.78rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.85rem;">Follow me</h4>
+                <div class="social-row">
+                    <a href="#" class="social-btn" aria-label="GitHub">
+                        <svg viewBox="0 0 20 20" fill="none"><path d="M10 1C5.03 1 1 5.03 1 10c0 3.99 2.58 7.38 6.16 8.58.45.08.62-.19.62-.43v-1.52C5.31 17.22 4.8 15.72 4.8 15.72c-.41-1.03-.99-1.3-.99-1.3-.81-.55.06-.54.06-.54.89.06 1.36.92 1.36.92.79 1.36 2.08.97 2.59.74.08-.57.31-.97.56-1.2-1.97-.22-4.04-.99-4.04-4.4 0-.97.35-1.77.92-2.39-.09-.23-.4-1.13.09-2.35 0 0 .75-.24 2.45.91.71-.2 1.47-.3 2.22-.3.75 0 1.51.1 2.22.3 1.7-1.15 2.45-.91 2.45-.91.49 1.22.18 2.12.09 2.35.57.62.92 1.42.92 2.39 0 3.42-2.08 4.17-4.05 4.39.32.27.6.8.6 1.62v2.4c0 .24.16.52.62.43C16.42 17.38 19 13.99 19 10c0-4.97-4.03-9-9-9z" fill="rgba(201,168,76,0.8)"/></svg>
+                    </a>
+                    <a href="https://www.facebook.com/michael.sarinas.526" target="_blank" class="social-btn" aria-label="Facebook">
+                        <div class="social-container">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.17 2.09 15.91 2 14.65 2C12 2 10 3.61 10 6.5V9.5H7V13.5H10V22H14V13.5Z" fill="#C9A84C" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://www.tiktok.com/G0NX" target="_blank" class="social-btn" aria-label="TikTok">
+                        <div class="social-container">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.641a2.892 2.892 0 0 1-5.201 1.743 2.892 2.892 0 0 1 2.308-4.637c.345 0 .676.061.985.17V9.43a6.333 6.333 0 0 0-3.293-.93 6.33 6.33 0 0 0-6.33 6.33 6.33 6.33 0 0 0 10.779 4.473V9.584a8.199 8.199 0 0 0 5.207 2.042V8.23a4.773 4.773 0 0 1-2.74-.858" fill="#C9A84C" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/mich4el_22" class="social-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="16" height="16" rx="4" stroke="rgba(201,168,76,0.8)" stroke-width="1.5"/><circle cx="10" cy="10" r="3" stroke="rgba(201,168,76,0.8)" stroke-width="1.5"/><circle cx="14.5" cy="5.5" r="1" fill="rgba(201,168,76,0.8)"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-wrap fade-in fade-in-delay-2">
+                <div class="contact-form" role="form" aria-label="Contact form">
+                    <h3>Send me a message</h3>
+                    <div id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" placeholder="Michael" autocomplete="given-name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" placeholder="Sarinas" autocomplete="family-name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="michael@example.com" autocomplete="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="What's this about?" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Send me a message or just say hello..."></textarea>
+                        </div>
+                        <button type="button" class="form-submit" onclick="submitForm()">Send Message</button>
+                    </div>
+                    <div class="form-success" id="formSuccess">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" style="margin:0 auto 1rem;display:block">
+                            <circle cx="28" cy="28" r="27" stroke="#c9a84c" stroke-width="2"/>
+                            <path d="M17 28l8 8 14-16" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p style="color:var(--gold-light);font-size:1.1rem;font-weight:600;">Message sent!</p>
+                        <p>Thanks for reaching out. I'll get back to you within 24–48 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 <span>John Michael Sarinas</span>. Designed &amp; built with care. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
