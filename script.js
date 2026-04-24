@@ -1,4 +1,4 @@
-// ── HAMBURGER MENU
+//HAMBURGER MENU
 
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.getElementById('navLinks');
@@ -17,7 +17,7 @@
     });
   });
 
-  // ── ACTIVE NAV HIGHLIGHT
+  //ACTIVE NAV HIGHLIGHT
   const sections = document.querySelectorAll('section[id]');
   const navAs = document.querySelectorAll('.nav-links a');
 
@@ -33,14 +33,14 @@
   window.addEventListener('scroll', updateActiveNav, { passive: true });
   updateActiveNav();
 
-  // ── SCROLL FADE-IN OBSERVER
+  //SCROLL FADE-IN OBSERVER
   const fadeEls = document.querySelectorAll('.fade-in');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
   }, { threshold: 0.12 });
   fadeEls.forEach(el => observer.observe(el));
 
-  // ── CONTACT FORM
+  //CONTACT FORM
   function submitForm() {
     const fname = document.getElementById('fname').value.trim();
     const email = document.getElementById('email').value.trim();
